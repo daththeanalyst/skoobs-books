@@ -144,9 +144,7 @@ img { max-width: 100%; height: auto; display: block; }
 .hero__pattern {
   position: absolute;
   inset: 0;
-  opacity: 0.04;
-  background-image:
-    repeating-linear-gradient(0deg, var(--cream) 0, var(--cream) 1px, transparent 1px, transparent 24px);
+  background: rgba(42, 25, 14, 0.6);
   z-index: 1;
 }
 
