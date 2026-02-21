@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Skoobs Books | Bath Guildhall Market</title>
+  <meta name="description" content="Get in touch with Skoobs Books. Book requests, enquiries, or just want to say hello.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">Skoobs <span>Books</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="genres.html">Browse Genres</a></li>
+        <li><a href="staff-picks.html">Staff Picks</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="visit.html">Visit Us</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <h1>Contact Us</h1>
+    <p>Book requests, questions, or just want to say hello</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="about-split">
+        <div class="contact-form">
+          <h2 style="margin-bottom: 8px;">Send Us a Message</h2>
+          <p style="color: var(--text-light); margin-bottom: 24px;">Looking for a specific book? Have a question? We'd love to hear from you.</p>
+          <form action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Jane Smith">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="jane@example.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="book-request">Book Request</option>
+                <option value="general">General Enquiry</option>
+                <option value="sell-books">I Have Books to Sell</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" required placeholder="Looking for a specific title or author? Let us know..."></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+
+        <div>
+          <h2 style="margin-bottom: 24px;">Other Ways to Reach Us</h2>
+          <div class="visit-info">
+            <div class="visit-info__item">
+              <strong>Phone</strong>
+              <span><a href="tel:01225463133" style="color: var(--green);">01225 463133</a></span>
+            </div>
+            <div class="visit-info__item">
+              <strong>In Person</strong>
+              <span>Stalls 40-42, Bath Guildhall Market, High Street, Bath BA2 4AW</span>
+            </div>
+            <div class="visit-info__item">
+              <strong>Hours</strong>
+              <span>Monday–Saturday, 9 AM – 5 PM</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 40px; padding: 24px; background: var(--green-pale); border-radius: 8px; border-left: 4px solid var(--green);">
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">Looking for a Specific Book?</h3>
+            <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.7;">Our stock changes daily. If you're after a specific title or author, tell us and we'll keep an eye out. We get hundreds of new books every week, so there's a good chance we'll find it.</p>
+          </div>
+
+          <div style="margin-top: 20px; padding: 24px; background: var(--parchment); border-radius: 8px; border-left: 4px solid var(--brown);">
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">Want to Sell Books?</h3>
+            <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.7;">We're always looking for quality second-hand paperbacks in good condition. Bring them to the stall during opening hours and we'll take a look. We focus on fiction, but we're open to all genres.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <p class="footer__brand">Skoobs <span>Books</span></p>
+          <p class="footer__desc">Bath's favourite second-hand bookshop. Over 30 years in the heart of Guildhall Market.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="genres.html">Browse Genres</a></li>
+            <li><a href="staff-picks.html">Staff Picks</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="visit.html">Visit Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Stalls 40-42, Guildhall Market</li>
+            <li>Bath BA2 4AW</li>
+            <li>Tel: 01225 463133</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">&copy; 2026 Skoobs Books. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
